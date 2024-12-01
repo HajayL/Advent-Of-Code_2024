@@ -1,0 +1,7 @@
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\obj\Debug\Day_1.csproj.AssemblyReference.cache
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\obj\Debug\Day_1.csproj.CoreCompileInputs.cache
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\bin\Debug\Day_1.exe.config
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\bin\Debug\Day_1.exe
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\bin\Debug\Day_1.pdb
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\obj\Debug\Day_1.exe
+C:\Users\Hajay\Documents\GitHub\Advent-Of-Code_2024\Day_1\obj\Debug\Day_1.pdb
