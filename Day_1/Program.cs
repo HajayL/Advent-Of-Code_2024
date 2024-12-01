@@ -13,8 +13,12 @@ namespace Day_1
             List<int> list1 = new List<int>();
             List<int> list2 = new List<int>();
 
-            // Total distance of the two lists
-            int result;
+            // Total distance result of the two lists
+            int distanceResult;
+
+            // Total similarity result of the two lists
+            int similarityResult;
+
 
             // file path to data
             string path = "";
@@ -31,10 +35,14 @@ namespace Day_1
             // Sort both lists, so the order of value is the same between the two lists
             Sort(list1);
             Sort(list2);
-            
+
             // Get & Display total distance of the two lists
-            result = GetDistance(list1, list2);
-            Display("The resulting distance from your lists are: " + result.ToString());
+            distanceResult = GetDistance(list1, list2);
+            Display("The resulting distance from your lists are: " + distanceResult.ToString());
+
+            // Get & Display total similarity of the two lists
+            similarityResult = GetSimilarity(list1, list2);
+            Display("The resulting similarity from your lists are: " + similarityResult.ToString());
 
             Console.ReadKey();
         }
@@ -139,6 +147,26 @@ namespace Day_1
             }
 
             return currentDistance; // Return back total distance to caller
+        }
+
+        //                                                                              Similarity Calculation
+
+        static int GetSimilarity(List<int> list1, List<int> list2)
+        {
+            int currentSimilarity = 0;
+
+            for (int i = 0; i < list1.Count; i++)
+            {
+                for (int a = 0; a < list2.Count; a++)
+                {
+                    if (list1[i] == list2[a])
+                    {
+                        currentSimilarity += list1[i]; // Adds the similairty if the numbers match
+                    }
+                }
+            }
+
+            return currentSimilarity; // Returns back similarity 
         }
     }
 }
